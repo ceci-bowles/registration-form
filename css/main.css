@@ -1,4 +1,28 @@
 html {
-  font-family: 'Open Sans', sans-serif;
-  line-height: 1.5;
+  font-family: "Open Sans", sans-serif;
+  background-color: #f2f2f2;
+}
+
+.line {
+  border-bottom: solid  1px #000;
+}
+
+button {
+  cursor: pointer;
+}
+
+.max-length {
+  background-color: #fff;
+}
+
+.btn {
+  padding: 1rem .5rem;
+}
+
+@media only screen and (min-width: 60em) {
+
+  .grid {
+    display: block;
+  }
+
 }
